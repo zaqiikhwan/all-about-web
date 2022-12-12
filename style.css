@@ -1,8 +1,45 @@
-.container li {
+/* .container li {
     list-style: none;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+} */
+
+html {
+    height: 100%;
+    background-color: lightblue;
+}
+
+.flexbox-container {
+    display: flex;
+    background-color: limegreen;
+    /* 
+        start -> rata kiri
+        end -> start kanan
+        center -> tengah
+        space-between -> justify
+        space-around -> 
+        space-evenly
+    */
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.flexbox-item {
+    width: 200px;
+    background-color: salmon;
+    border: 3px solid #333;
+    margin: 10px;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+.flexbox-item-2 {
+    min-height: 200px;
+}
+.flexbox-item-3 {
+    min-height: 300px;
 }

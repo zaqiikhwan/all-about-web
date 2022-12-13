@@ -43,3 +43,27 @@ html {
 .flexbox-item-3 {
     min-height: 300px;
 }
+
+.grid-container {
+    display: grid;
+    background-color: salmon;
+    row-gap: 24px;
+    grid-row: 24px;
+}
+
+.grid-item {
+    width: 200px;
+    background-color: blue;
+    border: 3px solid #333;
+    margin: 10px;
+}
+
+.grid-item-1 {
+    min-height: 100px;
+}
+.grid-item-2 {
+    min-height: 200px;
+}
+.grid-item-3 {
+    min-height: 300px;
+}
